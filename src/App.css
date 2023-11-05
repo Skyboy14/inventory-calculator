@@ -1,0 +1,14 @@
+.Footer{
+    background-color: black;
+    font-size: 1rem;
+    padding: 4px;
+    color: lightgray;
+    font-style: oblique;
+    text-align: end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    font-family:  'NexaLight'!important;
+}

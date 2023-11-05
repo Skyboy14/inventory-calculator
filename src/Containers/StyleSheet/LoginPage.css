@@ -1,0 +1,155 @@
+.fullscreenMob{
+  background-image: url(./../../Assets/LoginPage/bedroomMobile.jpg);
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
+}
+.fullscreenTab{
+  background-image: url(./../../Assets/LoginPage/bedroomTab.jpg);
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
+}
+
+.loginPage {
+    font-family:  'NexaLight'!important;
+    justify-content: center;
+    transform: scale(0.8);  
+    gap: 20px;
+    margin-left: -40%;
+    margin-top: 5%;
+  }
+  .loginTab{
+    font-family: 'NexaLight'!important;
+    transform: scale(1.2);  
+    width: max-content;
+    margin:auto;
+    margin-top: 20%;
+    margin-bottom: 60%;
+  }
+
+  .loginMobile{
+    font-family: 'NexaLight'!important;
+    width: max-content;
+    margin:auto;
+    margin-top: 20%;
+    margin-bottom: 90%;
+  }
+  
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+}
+  ::placeholder {
+  color: rgb(169, 168, 171);
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: .09em;
+}
+
+
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    opacity: .9;
+    border-radius: 30px;
+    transform: scale(1.2);  
+  }
+
+
+  input[type="text"],
+  input[type="password"] {
+    padding-left: 5px;
+    font-size: 1.1rem;
+  }
+
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    letter-spacing: .05em;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 7px;
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    letter-spacing: .05em;
+  }
+
+  .buttonplcstyled{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;;
+    
+  }
+
+  .buttonstyled{
+    background-color: gray !important;
+  }
+  .buttonstyled:hover{
+    background-color: black !important;
+  }
+
+  .logostyled{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 60px;
+    border-radius: 30px;
+  }
+
+  .namestyled{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .PowerdByStyle {
+    padding-top: 20px;
+    font-size: small;
+    font-style: ne;
+    font-family: 'NexaLight'!important;
+    text-align: end;
+    color: black;
+    letter-spacing: 0.0135rem;
+  }
+
+  
+
+

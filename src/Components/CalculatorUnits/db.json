@@ -1,0 +1,36 @@
+{
+    "id": 84,
+    "product": "oven start one",
+    "installation": 130.0,
+    "unInstallation": 12.3,
+    "haulOff": 52.0,
+    "minCharges": 450.0,
+    "categoryName": "Appliances",
+    "minMiles": 30.0,
+    "partEntity": [
+        {
+            "created_time": "2023-09-02T11:44:25.211181Z",
+            "updated_time": "2023-09-12T15:11:19.460791Z",
+            "created_user": "san",
+            "updated_user": "san",
+            "id": 1,
+            "partName": "pipe",
+            "partPrice": 81.0,
+            "installation": 22.0,
+            "unInstallation": 43.0,
+            "haulOff": 49.0
+        },
+        {
+            "created_time": "2023-09-07T16:54:41.073463Z",
+            "updated_time": "2023-09-09T11:57:50.704527Z",
+            "created_user": "san",
+            "updated_user": "san",
+            "id": 2,
+            "partName": "The Shawshank Redemption",
+            "partPrice": 200.0,
+            "installation": 10.0,
+            "unInstallation": 100.0,
+            "haulOff": 10.0
+        }
+    ]
+}

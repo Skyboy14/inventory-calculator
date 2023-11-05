@@ -1,0 +1,160 @@
+.desktopCover{
+  background-image: url(../../Assets/LoginPage/bck1.jpg);
+  min-height: 550px;
+}
+.ZipcodeSelector{
+    width: auto !important;
+    padding: 0px;
+}
+.DisplayTitle{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'NexaBold'!important;
+}
+.buttonstyled{
+    background-color: gray !important;
+    border-color: gray;
+}
+.buttonstyled:hover{
+    background-color: black !important;
+    border-color: black
+}
+ .namestyled1{
+    display: flex;
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .mainDash{
+    padding: 20px;
+    margin: auto;
+    border-radius: 9px;
+    background-color: white;
+    opacity: 0.95;
+    transform: scale(0.95);    
+    font-family:  'NexaLight'!important;
+  }
+  .checkboxLable{
+    margin-bottom: 5px !important;
+  }
+  .checkboxLable > Span{
+    padding: 0px 6px 0px 0px!important;
+  }
+  .form-label{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .invalid-feedback{
+    padding-left: 5px;
+  }
+.valid-feedback{
+    padding-left: 5px;
+  }
+.Mui-disabled {
+    cursor: not-allowed;
+  }
+.cal-res-buttonstyled-bckgrd{
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+.cal-res-buttonstyled{
+  background-color: gray !important;
+  color: black;
+  height: 42px !important;
+}
+.cal-res-buttonstyled:hover{
+  background-color: black !important;
+  color: white;
+}
+.AlertStyled{
+    width: 100%;
+    min-height: 18px !important;
+    padding: 0px 16px !important;
+    margin-top: 0px;
+    font-family: 'NexaLight'!important;
+    font-size: 1.2rem !important;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px !important;
+  }
+.css-1ndpvdd-MuiTableCell-root{    
+    background-color: black;
+    color: white !important;
+  }
+.tableCover{
+    padding-bottom: 10px !important;
+}
+.showCost{
+    opacity: .8;
+    color: rgb(30, 70, 32);
+    background-color: #d8f4d8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'NexaBold'!important;
+    width: fit-content;
+}
+
+.showCost2{
+    opacity: .8;
+    color: rgb(30, 70, 32);
+    background-color: #d8f4d8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'NexaBold'!important;
+    width: fit-content;
+}
+.strikeOut{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+@media print {
+  @page {
+    size: 'landscape';
+    margin-top: 20mm;
+  }
+}
+.printHead{
+    background-color: lightgrey;
+    margin: 3px;
+    padding: 5px;
+}
+.form-control:disabled{
+      background-color: white;
+}
+
+.mobile-button-div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-wraper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text-wrap-uninst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3px;
+}

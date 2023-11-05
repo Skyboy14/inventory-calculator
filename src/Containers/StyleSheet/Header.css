@@ -1,0 +1,32 @@
+.LogoStyle{
+    width: 144px;
+    height: 64px;
+    background-color: white;
+    border-radius: 15px;
+    transform: scale(0.8);  
+}
+
+.SignOut{
+    padding-right: 20px;
+    color: lightgray;
+}
+
+.me-auto{
+    font-family:  'NexaLight'!important;
+}
+
+.header{
+    padding: 0px;
+    margin-bottom: 0px !important;
+    position: sticky;
+}
+.offcanvas{
+    opacity: 0.85;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: white !important;
+}
+.offcanvas-body{
+    background-color: #212529;
+}

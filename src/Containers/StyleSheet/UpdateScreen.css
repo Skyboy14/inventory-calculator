@@ -1,0 +1,111 @@
+.desktopCoversingle{
+  height: auto;
+  min-height: 570px;
+  background-image: url(../../Assets/LoginPage/bck1.jpg); 
+}
+.UpdateDataForm-App{
+    padding: 20px;
+    margin: auto;
+    border-radius: 9px;
+    background-color: white;
+    opacity: 0.95;
+    transform: scale(0.9);    
+    font-family:  'NexaLight'!important;
+    margin-top: -30px !important;
+}
+.Accordian-Cover{
+    padding: 0 5% 5%;
+    opacity: 0.95;
+}
+.UpdateDataForm-create-category{
+    border-radius: 9px;
+    background-color: white;
+    opacity: 0.95;
+    transform: scale(0.9);    
+    font-family:  'NexaLight'!important;
+    margin-left: -20px;
+}
+.UpdateDataForm-zip{
+    padding: 20px;
+    margin: 0 auto !important;
+    border-radius: 9px;
+    background-color: white;
+    opacity: 0.95;
+    transform: scale(0.9);    
+    font-family:  'NexaLight'!important;
+}
+.ZipcodeSelector{
+    width: auto !important;
+    padding: 0px;
+}
+.DisplayTitle{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'NexaBold'!important;
+}
+.buttonstyled{
+    margin: 4px;    
+    background-color: gray !important;
+    border-color: gray;
+}
+.buttonstyled:hover{
+    background-color: black !important;
+    border-color: black;
+    color: white;
+}
+.hintText{
+    color: gray;
+    display: inline-flex;
+    padding-left: 6px;
+}
+.updatebtnCover{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    width: 25%;
+    padding-top: 32px;
+}
+.updatebtnCoverZip{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    width: 25%;
+    padding-top: 32px;
+}
+.UploadBtnCover{
+    margin: auto;
+    background-color: white;
+    width: fit-content;
+    margin-top: 15%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.UploadBtnCover > div {
+    padding-bottom: 20px;
+}
+.css-gdh49b-MuiAutocomplete-listbox{
+    max-height: 190px !important;
+}
+.CatRow{
+    min-height: 250px;
+}
+.ProRow{
+    min-height: 150px;
+}
+.ModalTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.CloseButton-X{
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+.sampleFile{
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+}
